@@ -9,7 +9,7 @@
 1) At github.com/KPMP click the New button
 2) Fill in the repository name with the name you decided on above
 3) Give the project an appropriate description so that outside viewers can understand the purpose of the project
-4) Leave it marked as pulic
+4) Leave it marked as public
 5) Decide whether to initialize it with a README (if you don't have anything useful to put in there to start, feel free to leave it out)
 6) Pick an appropriate .gitignore
 7) Click "Create Repository"
