@@ -53,3 +53,33 @@ Enable termination protection: Check the box
 #### Getting domain names registered, ssl certs and shib certs
 1) email jprosser@uw.edu
 2) give him the domain names we selected and the associated ip addresses
+3) Generate a self-signed cert 
+- openssl req -nodes -newkey rsa:2048 -keyout [keyname].key -out [csrname].csr
+4) Anwsers to these questions:
+- Country Name (2 letter code) [AU]:US
+- State or Province Name (full name) [Some-State]:WA
+- Locality Name (eg, city) []:Seattle
+- Organization Name (eg, company) [Internet Widgits Pty Ltd]:University of Washington
+- Organizational Unit Name (eg, section) []:UW-IT/CN
+- Common Name (e.g. server FQDN or YOUR name) []:<URL of instance>
+- Email Address []:kpmp-devs@umich.edu
+5) Feel free to leave the 'extra' attributes blank
+6) Send jprosser@uw.edu the self-signed cert for Shibboleth
+7) Save the new certs in kpmp-secure/<appName>/<dev, prod or qa>
+
+#### Installing the certs
+1) Unzip the certs locally
+2) Add them to kpmp-secure/<appName>/<dev, prod or qa>
+3) Upload the appropriate certs to all of the new instances 
+4) On each machine create a certs directory in the home directory
+5) Move the certs into the new directory
+6) Rename the SSL cert and key to kpmp.crt and kpmp.key respectively
+7) Change permissions on certs and keys
+- chmod 600 *
+8) Copy the InCommon-intermediate.crt from kpmp-secure to ~/certs on the machines
+
+#### Running new app
+1) Check out heavens-docker
+2) Check out app you want to serve
+2) Set up .env based on .evn.example
+3) Bring up docker stack
