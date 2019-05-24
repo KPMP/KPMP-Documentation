@@ -53,7 +53,7 @@ Enable termination protection: Check the box
 #### Getting domain names registered, ssl certs and shib certs
 1) email jprosser@uw.edu
 2) give him the domain names we selected and the associated ip addresses
-3) Generate a self-signed cert 
+3) Generate a certificate request  
 - openssl req -nodes -newkey rsa:2048 -keyout [keyname].key -out [csrname].csr
 4) Anwsers to these questions:
 - Country Name (2 letter code) [AU]:US
@@ -64,8 +64,10 @@ Enable termination protection: Check the box
 - Common Name (e.g. server FQDN or YOUR name) []:<URL of instance>
 - Email Address []:kpmp-devs@umich.edu
 5) Feel free to leave the 'extra' attributes blank
-6) Send jprosser@uw.edu the self-signed cert for Shibboleth
-7) Save the new certs in kpmp-secure/<appName>/<dev, prod or qa>
+6) Generate the self-signed cert:
+- openssl x509 -req -in kpmp-shib.csr -signkey kpmp-shib.key -out kpmp-shib.crt
+7) Send jprosser@uw.edu the self-signed cert for Shibboleth
+8) Save the new certs in kpmp-secure/<appName>/<dev, prod or qa>
 
 #### Installing the certs
 1) Unzip the certs locally
