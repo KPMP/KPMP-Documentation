@@ -61,7 +61,7 @@ Enable termination protection: Check the box
 - Locality Name (eg, city) []:Seattle
 - Organization Name (eg, company) [Internet Widgits Pty Ltd]:University of Washington
 - Organizational Unit Name (eg, section) []:UW-IT/CN
-- Common Name (e.g. server FQDN or YOUR name) []: [app-name.kpmp.org]
+- Common Name (e.g. server FQDN or YOUR name) []: [the domain name of the new app]
 - Email Address []:kpmp-devs@umich.edu
 5) Feel free to leave the 'extra' attributes blank
 6) Generate the self-signed cert:
