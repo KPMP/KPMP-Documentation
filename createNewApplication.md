@@ -66,7 +66,7 @@ Enable termination protection: Check the box
 5) Feel free to leave the 'extra' attributes blank
 6) Generate the self-signed cert:
 - openssl x509 -req -in kpmp-shib.csr -signkey kpmp-shib.key -out kpmp-shib.crt
-7) Send jprosser@uw.edu the self-signed cert for Shibboleth
+7) Send jprosser@uw.edu the self-signed cert for Shibboleth, include the self-signed certs (csr's) for each server too for SSL certs
 8) Save the new certs in kpmp-secure/<appName>/<dev, prod or qa>
 
 #### Installing the certs
