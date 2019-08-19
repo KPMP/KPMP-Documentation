@@ -15,3 +15,6 @@ This includes the following topics:
 - Setting up the new repo
 - Setting up contributors on the repo
 - Setting up branch rules on the new repo
+
+# External Documentation Links
+- [Data Manager - Application Summary](https://docs.google.com/document/d/1qG4FzJBG2Fc2fz5PYWGxO4sZqYgmAdyNZEEiR-bFOKw)
