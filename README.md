@@ -1,8 +1,10 @@
 # KPMP-Documentation
 
-[Services that use Slack integration](https://github.com/KPMP/KPMP-Documentation/blob/develop/servicesWithSlackIntegration.md)
+## Documents
 
-[New App Doco](http://https://github.com/KPMP/KPMP-Documentation/blob/KPMP-708_DocumentNewAppProcess/createNewApplication.md "New App Doco")
+* [Services that use Slack integration](https://github.com/KPMP/KPMP-Documentation/blob/develop/servicesWithSlackIntegration.md)
+
+* [New App Doco](http://https://github.com/KPMP/KPMP-Documentation/blob/KPMP-708_DocumentNewAppProcess/createNewApplication.md "New App Doco")
 This includes the following topics:
 - Spinning up a new instance at AWS
 - Associating an IP address with the new instacne
@@ -10,7 +12,7 @@ This includes the following topics:
 - Installing the certs
 - Running the new app
 
-[New Repo Doco](https://github.com/KPMP/KPMP-Documentation/blob/KPMP-708_DocumentNewAppProcess/createNewRepo.md "New Repo Doco")
+* [New Repo Doco](https://github.com/KPMP/KPMP-Documentation/blob/KPMP-708_DocumentNewAppProcess/createNewRepo.md "New Repo Doco")
 This includes the following topics:
 - Naming the repo
 - Create the new repo on github
