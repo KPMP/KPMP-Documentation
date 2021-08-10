@@ -1,4 +1,4 @@
-# Places that use the Slack webhook
+# Services that use the Slack webhook
 1. The Elastalert configs on prod and dev log aggregators:
 	- /home/ubuntu/heavens-docker/ara/elastalert/rules/errorAlertToSlack*
 	
