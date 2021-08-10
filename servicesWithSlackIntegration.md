@@ -8,5 +8,5 @@
 3. Uptime Robot:
 	- https://uptimerobot.com/dashboard?ref=website-header#mySettings --> Alert contacts
 	
-4. The Docker container checkers .env file
+4. The Docker container checker .env file
 	- Wherever the docker_container_check.py script is, e.g. /home/ubuntu or /home/kpmp-appuser
