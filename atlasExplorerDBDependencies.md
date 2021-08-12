@@ -1,10 +1,12 @@
-#KPMP Explorer UI Database Dependencies
+# KPMP Explorer UI Database Dependencies
 
-Legend
+---
+# Legend
 ## Page
 ### Component (apolloFunctionName -> GraphQLQueryName)
  - associated table
  - associated view
+---
 
 ## Front Page
 ### Autocomplete (fetchAutoComplete -> autocomplete) 
@@ -66,4 +68,3 @@ Legend
  - rt_gti
  - rt_summary_v
  - segment
- 
