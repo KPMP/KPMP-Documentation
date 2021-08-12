@@ -15,8 +15,8 @@
  - cell_type
  - cell_type_synonym
  
-## Cell Type Summary (fetchClusterHierarchy -> getClusterHieararchies) 
-### Cell Type Summary Table
+## Cell Type Summary 
+### Cell Type Summary Table (fetchClusterHierarchy -> getClusterHieararchies) 
  - cluster_hierarchy_sp
  
 ## Diffex
