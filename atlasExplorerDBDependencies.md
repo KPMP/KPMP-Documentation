@@ -1,3 +1,5 @@
+# Atlas Explorer Database Dependencies
+
 **cluster_hierarchy_sp (cell_type)**
  - cluster_hierarchy_segments_v
 
