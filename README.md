@@ -2,6 +2,10 @@
 
 ## Documents
 
+* [Atlas Explorer UI Database Depencies](https://github.com/KPMP/KPMP-Documentation/blob/develop/atlasExplorerUIDBDependencies.md)
+
+* [Atlas Explorer Database Depencies](https://github.com/KPMP/KPMP-Documentation/blob/develop/atlasExplorerDBDependencies.md)
+
 * [Services that use Slack integration](https://github.com/KPMP/KPMP-Documentation/blob/develop/servicesWithSlackIntegration.md)
 
 * [New App Doco](http://https://github.com/KPMP/KPMP-Documentation/blob/KPMP-708_DocumentNewAppProcess/createNewApplication.md "New App Doco")
