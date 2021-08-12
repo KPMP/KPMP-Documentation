@@ -1,12 +1,10 @@
 # KPMP Explorer UI Database Dependencies
 
----
-# Legend
-## Page
-### Component (apolloFunctionName -> GraphQLQueryName)
- - associated table
- - associated view
----
+> ## Page
+> ### Component (apolloFunctionName -> GraphQLQueryName)
+>  - associated table
+>  - associated view
+> ---
 
 ## Front Page
 ### Autocomplete (fetchAutoComplete -> autocomplete) 
