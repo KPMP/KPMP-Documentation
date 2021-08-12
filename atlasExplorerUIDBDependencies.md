@@ -1,4 +1,4 @@
-# KPMP Explorer UI Database Dependencies
+# Atlas Explorer UI Database Dependencies
 
 > ## Page
 > ### Component 
