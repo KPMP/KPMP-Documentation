@@ -88,4 +88,4 @@
  - participant
  - sn_metadata
 
-![ER Diagram of Atlas Explorer Tables and Views in Knowledge Environment!](kpmp_atlas_explorer_er.png "ER Diagram of Atlas Explorer in Knowledge Environment") 
+![ER Diagram of Atlas Explorer Tables and Views in Knowledge Environment!](KE_ER_2.png "ER Diagram of Atlas Explorer in Knowledge Environment") 
